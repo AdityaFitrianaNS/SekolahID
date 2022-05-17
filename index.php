@@ -50,7 +50,7 @@
         </ul>
         <ul class="navbar-nav ms-auto d-none d-lg-inline-flex">
             <li class="nav-item">
-                <a class="nav-link mx-1" href="../sekolahID/akun/logout.php">Logout</a>
+                <a class="nav-link mx-1" href="../sekolahID/akun/login.php">Login</a>
             </li>
             <li class="nav-item mx-1">
                 <a class="nav-link text-dark h5" href="" target="blank"><i class="fab fa-facebook-square"></i></a>
