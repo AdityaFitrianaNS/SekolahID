@@ -1,13 +1,3 @@
-<?php
-
-session_start();
-// Jika tidak ada session login, kembalikan user ke halaman login
-if( !isset($_SESSION["login"])) {
-    header("Location: akun/login.php");
-    exit; 
-}
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
