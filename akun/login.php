@@ -3,7 +3,7 @@
 session_start();
 
 if (isset($_SESSION["login"])) {
-    header("Location: ../index.php");
+    header("Location: ../index.html");
     exit;
 }
 
@@ -23,7 +23,7 @@ if (isset($_POST["login"])) {
         if ( password_verify($password, $row["password"]) ) {
             // jika berhasil, set session.
             $_SESSION["login"] = true;
-            header("Location: ../index.php");
+            header("Location: ../index.html");
             exit;
         }
     }

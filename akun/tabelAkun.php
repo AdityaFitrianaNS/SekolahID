@@ -42,7 +42,7 @@ if(isset($_POST["cari"])) {
         <div class=" collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto ">
             <li class="nav-item">
-                <a class="nav-link mx-1" aria-current="page" href="../index.php">Home</a>
+                <a class="nav-link mx-1" aria-current="page" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link mx-1" href="#">Profile</a>
