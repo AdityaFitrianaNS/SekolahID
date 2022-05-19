@@ -9,19 +9,18 @@ if( !isset($_SESSION["login"])) {
 
 require '../function.php';
 
-// Mekanisme didalam functions.php
+// 
 $dataSiswa = query("SELECT * FROM data_siswa");
 
 // Tombol search ditekan
 if(isset($_POST["cari"])) {
-  // $tb_buku akan berisi data hasil pencarian dari function cari. function cari mendapatkan dari apapun yang dicari user.
   $dataSiswa = cari($_POST["keyword"]);
 }
 
 // Tambah Siswa
 if(isset($_POST["submit"])) {
   // Cek apakah data berhasil ditambahkan atau tidak
-  // Memanggil fungsi tambahpeminjam(tambah)
+
   if(tambahSiswa($_POST) > 0) {
       echo "
       <script>
